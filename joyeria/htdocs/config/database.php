@@ -11,10 +11,10 @@ if (is_file($localConfigFile)) {
         }
     }
 
-    $host = $localConfig['sql205.infinityfree.com'];
-    $database = $localConfig['if0_43518410_sistema_tuunich'];
-    $username = $localConfig['if0_43518410'];
-    $password = $localConfig['QZLIauaOwQxt2FI'];
+    $host = $localConfig['host'];
+    $database = $localConfig['database'];
+    $username = $localConfig['username'];
+    $password = $localConfig['password'];
 } else {
     $host = getenv('DB_HOST') ?: '127.0.0.1';
     $database = getenv('DB_NAME') ?: 'joyeria';
