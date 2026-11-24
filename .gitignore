@@ -1,2 +1,3 @@
-/joyeria/publico/cargas/*
-!/joyeria/publico/cargas/.htaccess
+/joyeria/htdocs/uploads/*
+!/joyeria/htdocs/uploads/.htaccess
+/joyeria/htdocs/config/database.local.php
